@@ -1,0 +1,1 @@
+:root{--rcp-blue: #0D6EFD;--rcp-dark: #212529}body{font-family:Roboto,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial;color:var(--rcp-dark)}.rcp-hero{background:linear-gradient(90deg,#0d6efd0f,#66b2ff08);border-radius:.5rem;padding:2rem}.rcp-cta{background-color:var(--rcp-blue);color:#fff}.rcp-card-icon{font-size:1.6rem;color:var(--rcp-blue)}
