@@ -2,15 +2,14 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'node:path'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'build', // cambia la carpeta de salida de dist a build
+    outDir: 'build',
   },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'), // opcional, si quieres alias para src
+      '@': path.resolve(__dirname, 'src'),
     },
   },
 })
